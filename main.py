@@ -137,3 +137,5 @@ updater.dispatcher.add_handler(MessageHandler(Filters.text, handler))   # 메세
 updater.dispatcher.add_handler(CallbackQueryHandler(callback))          # 버튼 클릭시 불릴 핸들러
 updater.dispatcher.add_handler(CommandHandler('start', start_command))  # /start 커맨드 입력시 불릴 핸들러
 updater.dispatcher.add_handler(CommandHandler('help',  help_command))   # /help 커맨드 입력시 불릴 핸들러
+
+print('a')
